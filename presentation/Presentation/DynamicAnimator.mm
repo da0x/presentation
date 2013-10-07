@@ -14,9 +14,4 @@
 //   limitations under the License.
 //
 
-#import <UIKit/UIKit.h>
-#include "DA_Animator.hpp"
-
-@interface DAScrollView : UIScrollView
-@property (nonatomic) DA::Animator* animator;
-@end
+#include "DynamicAnimator.hpp"

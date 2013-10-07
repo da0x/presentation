@@ -14,9 +14,21 @@
 //   limitations under the License.
 //
 
-#import <UIKit/UIKit.h>
-#include "DA_Animator.hpp"
+#include "DA_ScrollView.hpp"
 
-@interface DAScrollView : UIScrollView
-@property (nonatomic) DA::Animator* animator;
+#include <UIKit/UIKit.h>
+
+@interface DynamicScrollView : DAScrollView {
+    DA::Animator    dynamicAnimator;
+}
+
+-(void)prepareIntro;
+-(void)animateIntro;
+-(void)addView:(UIView*)view;
+-(void)addDynamicView:(UIView*)view;
+-(void)addFastDynamicView:(UIView*)view;
+-(void)addThumbnailView:(UIView*)view;
+
+-(void)scrollToPage:(int)page;
+
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F2DA211180301DA00FA0FE5 /* DynamicAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F2DA20E180301DA00FA0FE5 /* DynamicAnimator.mm */; };
+		4F2DA212180301DA00FA0FE5 /* DynamicScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F2DA210180301DA00FA0FE5 /* DynamicScrollView.mm */; };
 		4FA565E417C2A63800BB91C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA565B817C2A63800BB91C4 /* AppDelegate.m */; };
 		4FA565E617C2A63800BB91C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FA565BB17C2A63800BB91C4 /* InfoPlist.strings */; };
 		4FA565E717C2A63800BB91C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA565BD17C2A63800BB91C4 /* Images.xcassets */; };
@@ -28,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F2DA20D180301DA00FA0FE5 /* DynamicAnimator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DynamicAnimator.hpp; sourceTree = "<group>"; };
+		4F2DA20E180301DA00FA0FE5 /* DynamicAnimator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DynamicAnimator.mm; sourceTree = "<group>"; };
+		4F2DA20F180301DA00FA0FE5 /* DynamicScrollView.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DynamicScrollView.hpp; sourceTree = "<group>"; };
+		4F2DA210180301DA00FA0FE5 /* DynamicScrollView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DynamicScrollView.mm; sourceTree = "<group>"; };
 		4FA565B717C2A63800BB91C4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4FA565B817C2A63800BB91C4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4FA565BC17C2A63800BB91C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -95,6 +101,12 @@
 		4FA565C017C2A63800BB91C4 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				4FA565CB17C2A63800BB91C4 /* ScrollView.h */,
+				4FA565CC17C2A63800BB91C4 /* ScrollView.mm */,
+				4F2DA20F180301DA00FA0FE5 /* DynamicScrollView.hpp */,
+				4F2DA210180301DA00FA0FE5 /* DynamicScrollView.mm */,
+				4F2DA20D180301DA00FA0FE5 /* DynamicAnimator.hpp */,
+				4F2DA20E180301DA00FA0FE5 /* DynamicAnimator.mm */,
 				4FA565C117C2A63800BB91C4 /* DA_Animator.hpp */,
 				4FA565C217C2A63800BB91C4 /* DA_Animator.mm */,
 				4FA565C317C2A63800BB91C4 /* DA_ScrollView.hpp */,
@@ -105,8 +117,6 @@
 				4FA565C817C2A63800BB91C4 /* FullscreenBounceAnimator.mm */,
 				4FA565C917C2A63800BB91C4 /* PresentationView.h */,
 				4FA565CA17C2A63800BB91C4 /* PresentationView.mm */,
-				4FA565CB17C2A63800BB91C4 /* ScrollView.h */,
-				4FA565CC17C2A63800BB91C4 /* ScrollView.mm */,
 				4FA565CD17C2A63800BB91C4 /* ThumbnailAnimator.hpp */,
 				4FA565CE17C2A63800BB91C4 /* ThumbnailAnimator.mm */,
 			);
@@ -252,9 +262,11 @@
 				4FA565E917C2A63800BB91C4 /* main.m in Sources */,
 				4FA565EC17C2A63800BB91C4 /* DA_View.mm in Sources */,
 				4FA565E417C2A63800BB91C4 /* AppDelegate.m in Sources */,
+				4F2DA211180301DA00FA0FE5 /* DynamicAnimator.mm in Sources */,
 				4FA565FE17C2A63800BB91C4 /* ViewController.mm in Sources */,
 				4FA565ED17C2A63800BB91C4 /* FullscreenBounceAnimator.mm in Sources */,
 				4FA565F017C2A63800BB91C4 /* ThumbnailAnimator.mm in Sources */,
+				4F2DA212180301DA00FA0FE5 /* DynamicScrollView.mm in Sources */,
 				4FA565EB17C2A63800BB91C4 /* DA_ScrollView.mm in Sources */,
 				4FA565EE17C2A63800BB91C4 /* PresentationView.mm in Sources */,
 				4FA565EA17C2A63800BB91C4 /* DA_Animator.mm in Sources */,
