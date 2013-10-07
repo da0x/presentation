@@ -20,9 +20,11 @@
 		4FA565F017C2A63800BB91C4 /* ThumbnailAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FA565CE17C2A63800BB91C4 /* ThumbnailAnimator.mm */; };
 		4FA565FD17C2A63800BB91C4 /* v1-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FA565E117C2A63800BB91C4 /* v1-iPhone.xib */; };
 		4FA565FE17C2A63800BB91C4 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FA565E317C2A63800BB91C4 /* ViewController.mm */; };
+		4FA7D73817FC6A5B00DC4EC3 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA5662E17C2ABB400BB91C4 /* Main-iPad.storyboard */; };
 		4FC3D438179603BF0015083D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC3D437179603BF0015083D /* Foundation.framework */; };
 		4FC3D43A179603BF0015083D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC3D439179603BF0015083D /* CoreGraphics.framework */; };
 		4FC3D43C179603BF0015083D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC3D43B179603BF0015083D /* UIKit.framework */; };
+		4FDA6F4817E3CD4D00AD2931 /* Main-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA5663017C2ABB400BB91C4 /* Main-iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -234,6 +236,8 @@
 			files = (
 				4FA565E717C2A63800BB91C4 /* Images.xcassets in Resources */,
 				4FA565FD17C2A63800BB91C4 /* v1-iPhone.xib in Resources */,
+				4FA7D73817FC6A5B00DC4EC3 /* Main-iPad.storyboard in Resources */,
+				4FDA6F4817E3CD4D00AD2931 /* Main-iPhone.storyboard in Resources */,
 				4FA565E617C2A63800BB91C4 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,7 +376,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Presentation;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,7 +394,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = Presentation;
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
